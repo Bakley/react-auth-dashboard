@@ -4,7 +4,7 @@ import { AuthContext } from "../context/AuthContext";
 import '../form/Login.css'
 
 const Login = () => {
-    const [userName, setUsername] = useState("")
+    const [username, setUsername] = useState("")
     const [password, setpassword] = useState("")
 
     const { login } = useContext(AuthContext)

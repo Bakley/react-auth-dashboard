@@ -1,0 +1,26 @@
+/* src/pages/Dashboard.css */
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .dashboard-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-container button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #c82333;
+  }
+  
